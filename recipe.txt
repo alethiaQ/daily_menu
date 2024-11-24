@@ -2,5 +2,12 @@ cookbook: More is More - Molly Baz
 recipe 1: yummy juice
 page: 187
 colors: {background: lime-bright (#faf9a3), text: Forest Green (#0b5345)}
+info: {
+    makes: 2,
+    goes_with: ["put the lime in the coconut bread with salty coconut jam (page132)", "Party Chix (Page 185)"]
+}
+ingredients: ["2 lemons", "Ice", "2 ounces Aperol or Cappelletti", "4 ounces mezcal", "3/4 ounce agave syrup", "Kosher salt"]
+
+
 
 
