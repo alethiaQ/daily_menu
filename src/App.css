@@ -10,3 +10,10 @@
   font-style: normal;
 }
 
+.recipe_text_color { 
+  color: #0b5345
+}
+
+.recipe_background_color { 
+  background-color: #faf9a3;
+}

@@ -1,5 +1,6 @@
 cookbook: More is More - Molly Baz 
 recipe 1: yummy juice
 page: 187
+colors: {background: lime-bright (#faf9a3), text: Forest Green (#0b5345)}
 
 
