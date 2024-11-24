@@ -1,6 +1,5 @@
 import { Card } from "react-bootstrap"
 
-
 export const IngredientList = ({ ingredients }) => {
     return (
         <Card>

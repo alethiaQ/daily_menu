@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { LeftSideContainer } from './containers/LeftSideContainer';
+import { RightSideContainer } from './containers/RightSideContainer';
 function App() {
   return (
     <Container fluid className="recipe_text_color recipe_background_color">
@@ -14,7 +15,10 @@ function App() {
           {/* Left side Container */}
           <LeftSideContainer />
         </Col>
-        <Col>Right Side Container</Col>
+        <Col>
+          {/* Right Side Container */}
+          <RightSideContainer />
+        </Col>
       </Row>
     </Container>
   );
