@@ -4,7 +4,11 @@ import { Card } from "react-bootstrap"
 export const IngredientList = ({ ingredients }) => {
     return (
         <Card>
-            Ingredient List 
+            <Card.Text>
+                {ingredients.map(item => (
+                    <li>{item}</li>
+                ))}
+           </Card.Text>
         </Card>
     )
 }
