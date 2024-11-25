@@ -1,7 +1,10 @@
+import { DescriptionCard } from "../components/DescriptionCard";
+
 export function RightSideContainer() {
+  const description = "";
     return ( 
         <span>
-          Right Side Container
+          <DescriptionCard description={description} />
         </span>
     )
 }
